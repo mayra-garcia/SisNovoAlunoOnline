@@ -1,0 +1,15 @@
+C:\Users\TIEDT\Desktop\fael\SisNovoAlunoOnline\SisNovoAlunoOnline\SisNovoAlunoOnline.Infra\bin\Debug\netcoreapp3.1\SisNovoAlunoOnline.Infra.deps.json
+C:\Users\TIEDT\Desktop\fael\SisNovoAlunoOnline\SisNovoAlunoOnline\SisNovoAlunoOnline.Infra\bin\Debug\netcoreapp3.1\SisNovoAlunoOnline.Infra.runtimeconfig.json
+C:\Users\TIEDT\Desktop\fael\SisNovoAlunoOnline\SisNovoAlunoOnline\SisNovoAlunoOnline.Infra\bin\Debug\netcoreapp3.1\SisNovoAlunoOnline.Infra.runtimeconfig.dev.json
+C:\Users\TIEDT\Desktop\fael\SisNovoAlunoOnline\SisNovoAlunoOnline\SisNovoAlunoOnline.Infra\bin\Debug\netcoreapp3.1\SisNovoAlunoOnline.Infra.dll
+C:\Users\TIEDT\Desktop\fael\SisNovoAlunoOnline\SisNovoAlunoOnline\SisNovoAlunoOnline.Infra\bin\Debug\netcoreapp3.1\SisNovoAlunoOnline.Infra.pdb
+C:\Users\TIEDT\Desktop\fael\SisNovoAlunoOnline\SisNovoAlunoOnline\SisNovoAlunoOnline.Infra\bin\Debug\netcoreapp3.1\SisNovoAlunoOnline.Domain.dll
+C:\Users\TIEDT\Desktop\fael\SisNovoAlunoOnline\SisNovoAlunoOnline\SisNovoAlunoOnline.Infra\bin\Debug\netcoreapp3.1\SisNovoAlunoOnline.Domain.pdb
+C:\Users\TIEDT\Desktop\fael\SisNovoAlunoOnline\SisNovoAlunoOnline\SisNovoAlunoOnline.Infra\obj\Debug\netcoreapp3.1\SisNovoAlunoOnline.Infra.csprojAssemblyReference.cache
+C:\Users\TIEDT\Desktop\fael\SisNovoAlunoOnline\SisNovoAlunoOnline\SisNovoAlunoOnline.Infra\obj\Debug\netcoreapp3.1\SisNovoAlunoOnline.Infra.AssemblyInfoInputs.cache
+C:\Users\TIEDT\Desktop\fael\SisNovoAlunoOnline\SisNovoAlunoOnline\SisNovoAlunoOnline.Infra\obj\Debug\netcoreapp3.1\SisNovoAlunoOnline.Infra.AssemblyInfo.cs
+C:\Users\TIEDT\Desktop\fael\SisNovoAlunoOnline\SisNovoAlunoOnline\SisNovoAlunoOnline.Infra\obj\Debug\netcoreapp3.1\SisNovoAlunoOnline.Infra.csproj.CoreCompileInputs.cache
+C:\Users\TIEDT\Desktop\fael\SisNovoAlunoOnline\SisNovoAlunoOnline\SisNovoAlunoOnline.Infra\obj\Debug\netcoreapp3.1\SisNovoAlunoOnline.Infra.csproj.CopyComplete
+C:\Users\TIEDT\Desktop\fael\SisNovoAlunoOnline\SisNovoAlunoOnline\SisNovoAlunoOnline.Infra\obj\Debug\netcoreapp3.1\SisNovoAlunoOnline.Infra.dll
+C:\Users\TIEDT\Desktop\fael\SisNovoAlunoOnline\SisNovoAlunoOnline\SisNovoAlunoOnline.Infra\obj\Debug\netcoreapp3.1\SisNovoAlunoOnline.Infra.pdb
+C:\Users\TIEDT\Desktop\fael\SisNovoAlunoOnline\SisNovoAlunoOnline\SisNovoAlunoOnline.Infra\obj\Debug\netcoreapp3.1\SisNovoAlunoOnline.Infra.genruntimeconfig.cache

@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="FluentValidation.AspNetCore" Version="10.0.4" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\SisNovoAlunoOnline.Domain\SisNovoAlunoOnline.Domain.csproj" />
+    <ProjectReference Include="..\SisNovoAlunoOnline.Infra\SisNovoAlunoOnline.Infra.csproj" />
+  </ItemGroup>
+
+</Project>

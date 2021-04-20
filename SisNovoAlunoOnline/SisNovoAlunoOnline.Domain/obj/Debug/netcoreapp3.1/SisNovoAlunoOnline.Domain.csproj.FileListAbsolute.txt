@@ -1,0 +1,9 @@
+C:\Users\TIEDT\Desktop\fael\SisNovoAlunoOnline\SisNovoAlunoOnline\SisNovoAlunoOnline.Domain\bin\Debug\netcoreapp3.1\SisNovoAlunoOnline.Domain.deps.json
+C:\Users\TIEDT\Desktop\fael\SisNovoAlunoOnline\SisNovoAlunoOnline\SisNovoAlunoOnline.Domain\bin\Debug\netcoreapp3.1\SisNovoAlunoOnline.Domain.dll
+C:\Users\TIEDT\Desktop\fael\SisNovoAlunoOnline\SisNovoAlunoOnline\SisNovoAlunoOnline.Domain\bin\Debug\netcoreapp3.1\SisNovoAlunoOnline.Domain.pdb
+C:\Users\TIEDT\Desktop\fael\SisNovoAlunoOnline\SisNovoAlunoOnline\SisNovoAlunoOnline.Domain\obj\Debug\netcoreapp3.1\SisNovoAlunoOnline.Domain.csprojAssemblyReference.cache
+C:\Users\TIEDT\Desktop\fael\SisNovoAlunoOnline\SisNovoAlunoOnline\SisNovoAlunoOnline.Domain\obj\Debug\netcoreapp3.1\SisNovoAlunoOnline.Domain.AssemblyInfoInputs.cache
+C:\Users\TIEDT\Desktop\fael\SisNovoAlunoOnline\SisNovoAlunoOnline\SisNovoAlunoOnline.Domain\obj\Debug\netcoreapp3.1\SisNovoAlunoOnline.Domain.AssemblyInfo.cs
+C:\Users\TIEDT\Desktop\fael\SisNovoAlunoOnline\SisNovoAlunoOnline\SisNovoAlunoOnline.Domain\obj\Debug\netcoreapp3.1\SisNovoAlunoOnline.Domain.csproj.CoreCompileInputs.cache
+C:\Users\TIEDT\Desktop\fael\SisNovoAlunoOnline\SisNovoAlunoOnline\SisNovoAlunoOnline.Domain\obj\Debug\netcoreapp3.1\SisNovoAlunoOnline.Domain.dll
+C:\Users\TIEDT\Desktop\fael\SisNovoAlunoOnline\SisNovoAlunoOnline\SisNovoAlunoOnline.Domain\obj\Debug\netcoreapp3.1\SisNovoAlunoOnline.Domain.pdb

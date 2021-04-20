@@ -1,21 +1,26 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\MayraAndreotiMendesG\\OneDrive - Faculdade Fael\\Área de Trabalho\\ApiProdutos\\NovoAlunoOnline\\SisNovoAlunoOnline\\SisNovoAlunoOnline\\SisNovoAlunoOnline.csproj": {}
+    "C:\\Users\\TIEDT\\Desktop\\fael\\SisNovoAlunoOnline\\SisNovoAlunoOnline\\SisNovoAlunoOnline\\SisNovoAlunoOnline.csproj": {}
   },
   "projects": {
-    "C:\\Users\\MayraAndreotiMendesG\\OneDrive - Faculdade Fael\\Área de Trabalho\\ApiProdutos\\NovoAlunoOnline\\SisNovoAlunoOnline\\SisNovoAlunoOnline\\SisNovoAlunoOnline.csproj": {
+    "C:\\Users\\TIEDT\\Desktop\\fael\\SisNovoAlunoOnline\\SisNovoAlunoOnline\\SisNovoAlunoOnline.Domain\\SisNovoAlunoOnline.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\MayraAndreotiMendesG\\OneDrive - Faculdade Fael\\Área de Trabalho\\ApiProdutos\\NovoAlunoOnline\\SisNovoAlunoOnline\\SisNovoAlunoOnline\\SisNovoAlunoOnline.csproj",
-        "projectName": "SisNovoAlunoOnline",
-        "projectPath": "C:\\Users\\MayraAndreotiMendesG\\OneDrive - Faculdade Fael\\Área de Trabalho\\ApiProdutos\\NovoAlunoOnline\\SisNovoAlunoOnline\\SisNovoAlunoOnline\\SisNovoAlunoOnline.csproj",
-        "packagesPath": "C:\\Users\\MayraAndreotiMendesG\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\MayraAndreotiMendesG\\OneDrive - Faculdade Fael\\Área de Trabalho\\ApiProdutos\\NovoAlunoOnline\\SisNovoAlunoOnline\\SisNovoAlunoOnline\\obj\\",
+        "projectUniqueName": "C:\\Users\\TIEDT\\Desktop\\fael\\SisNovoAlunoOnline\\SisNovoAlunoOnline\\SisNovoAlunoOnline.Domain\\SisNovoAlunoOnline.Domain.csproj",
+        "projectName": "SisNovoAlunoOnline.Domain",
+        "projectPath": "C:\\Users\\TIEDT\\Desktop\\fael\\SisNovoAlunoOnline\\SisNovoAlunoOnline\\SisNovoAlunoOnline.Domain\\SisNovoAlunoOnline.Domain.csproj",
+        "packagesPath": "C:\\Users\\TIEDT\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\TIEDT\\Desktop\\fael\\SisNovoAlunoOnline\\SisNovoAlunoOnline\\SisNovoAlunoOnline.Domain\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\MayraAndreotiMendesG\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\TIEDT\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -39,6 +44,12 @@
       "frameworks": {
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "FluentValidation.AspNetCore": {
+              "target": "Package",
+              "version": "[10.0.4, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -57,7 +68,266 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\TIEDT\\Desktop\\fael\\SisNovoAlunoOnline\\SisNovoAlunoOnline\\SisNovoAlunoOnline.Infra\\SisNovoAlunoOnline.Infra.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\TIEDT\\Desktop\\fael\\SisNovoAlunoOnline\\SisNovoAlunoOnline\\SisNovoAlunoOnline.Infra\\SisNovoAlunoOnline.Infra.csproj",
+        "projectName": "SisNovoAlunoOnline.Infra",
+        "projectPath": "C:\\Users\\TIEDT\\Desktop\\fael\\SisNovoAlunoOnline\\SisNovoAlunoOnline\\SisNovoAlunoOnline.Infra\\SisNovoAlunoOnline.Infra.csproj",
+        "packagesPath": "C:\\Users\\TIEDT\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\TIEDT\\Desktop\\fael\\SisNovoAlunoOnline\\SisNovoAlunoOnline\\SisNovoAlunoOnline.Infra\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\TIEDT\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Users\\TIEDT\\Desktop\\fael\\SisNovoAlunoOnline\\SisNovoAlunoOnline\\SisNovoAlunoOnline.Domain\\SisNovoAlunoOnline.Domain.csproj": {
+                "projectPath": "C:\\Users\\TIEDT\\Desktop\\fael\\SisNovoAlunoOnline\\SisNovoAlunoOnline\\SisNovoAlunoOnline.Domain\\SisNovoAlunoOnline.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\TIEDT\\Desktop\\fael\\SisNovoAlunoOnline\\SisNovoAlunoOnline\\SisNovoAlunoOnline.Service\\SisNovoAlunoOnline.Service.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\TIEDT\\Desktop\\fael\\SisNovoAlunoOnline\\SisNovoAlunoOnline\\SisNovoAlunoOnline.Service\\SisNovoAlunoOnline.Service.csproj",
+        "projectName": "SisNovoAlunoOnline.Service",
+        "projectPath": "C:\\Users\\TIEDT\\Desktop\\fael\\SisNovoAlunoOnline\\SisNovoAlunoOnline\\SisNovoAlunoOnline.Service\\SisNovoAlunoOnline.Service.csproj",
+        "packagesPath": "C:\\Users\\TIEDT\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\TIEDT\\Desktop\\fael\\SisNovoAlunoOnline\\SisNovoAlunoOnline\\SisNovoAlunoOnline.Service\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\TIEDT\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Users\\TIEDT\\Desktop\\fael\\SisNovoAlunoOnline\\SisNovoAlunoOnline\\SisNovoAlunoOnline.Domain\\SisNovoAlunoOnline.Domain.csproj": {
+                "projectPath": "C:\\Users\\TIEDT\\Desktop\\fael\\SisNovoAlunoOnline\\SisNovoAlunoOnline\\SisNovoAlunoOnline.Domain\\SisNovoAlunoOnline.Domain.csproj"
+              },
+              "C:\\Users\\TIEDT\\Desktop\\fael\\SisNovoAlunoOnline\\SisNovoAlunoOnline\\SisNovoAlunoOnline.Infra\\SisNovoAlunoOnline.Infra.csproj": {
+                "projectPath": "C:\\Users\\TIEDT\\Desktop\\fael\\SisNovoAlunoOnline\\SisNovoAlunoOnline\\SisNovoAlunoOnline.Infra\\SisNovoAlunoOnline.Infra.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "FluentValidation.AspNetCore": {
+              "target": "Package",
+              "version": "[10.0.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\TIEDT\\Desktop\\fael\\SisNovoAlunoOnline\\SisNovoAlunoOnline\\SisNovoAlunoOnline\\SisNovoAlunoOnline.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\TIEDT\\Desktop\\fael\\SisNovoAlunoOnline\\SisNovoAlunoOnline\\SisNovoAlunoOnline\\SisNovoAlunoOnline.csproj",
+        "projectName": "SisNovoAlunoOnline",
+        "projectPath": "C:\\Users\\TIEDT\\Desktop\\fael\\SisNovoAlunoOnline\\SisNovoAlunoOnline\\SisNovoAlunoOnline\\SisNovoAlunoOnline.csproj",
+        "packagesPath": "C:\\Users\\TIEDT\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\TIEDT\\Desktop\\fael\\SisNovoAlunoOnline\\SisNovoAlunoOnline\\SisNovoAlunoOnline\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\TIEDT\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\TIEDT\\Desktop\\fael\\SisNovoAlunoOnline\\SisNovoAlunoOnline\\SisNovoAlunoOnline.Domain\\SisNovoAlunoOnline.Domain.csproj": {
+                "projectPath": "C:\\Users\\TIEDT\\Desktop\\fael\\SisNovoAlunoOnline\\SisNovoAlunoOnline\\SisNovoAlunoOnline.Domain\\SisNovoAlunoOnline.Domain.csproj"
+              },
+              "C:\\Users\\TIEDT\\Desktop\\fael\\SisNovoAlunoOnline\\SisNovoAlunoOnline\\SisNovoAlunoOnline.Infra\\SisNovoAlunoOnline.Infra.csproj": {
+                "projectPath": "C:\\Users\\TIEDT\\Desktop\\fael\\SisNovoAlunoOnline\\SisNovoAlunoOnline\\SisNovoAlunoOnline.Infra\\SisNovoAlunoOnline.Infra.csproj"
+              },
+              "C:\\Users\\TIEDT\\Desktop\\fael\\SisNovoAlunoOnline\\SisNovoAlunoOnline\\SisNovoAlunoOnline.Service\\SisNovoAlunoOnline.Service.csproj": {
+                "projectPath": "C:\\Users\\TIEDT\\Desktop\\fael\\SisNovoAlunoOnline\\SisNovoAlunoOnline\\SisNovoAlunoOnline.Service\\SisNovoAlunoOnline.Service.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.5, )"
+            },
+            "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
+              "target": "Package",
+              "version": "[1.10.9, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[5.6.3, )"
+            },
+            "Swashbuckle.AspNetCore.Swagger": {
+              "target": "Package",
+              "version": "[6.1.3, )"
+            },
+            "Swashbuckle.AspNetCore.SwaggerGen": {
+              "target": "Package",
+              "version": "[6.1.3, )"
+            },
+            "Swashbuckle.AspNetCore.SwaggerUI": {
+              "target": "Package",
+              "version": "[6.1.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
         }
       }
     }
