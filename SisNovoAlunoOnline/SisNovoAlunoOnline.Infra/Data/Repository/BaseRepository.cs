@@ -79,7 +79,7 @@ namespace SisNovoAlunoOnline.Infra.Data.Repository
             return entity;
         }
 
-        public async Task Update(TEntity entity)
+        public async Task<TEntity> Update(TEntity entity)
         {
             BeforeModified(StateEntity.Updated, entity);
             TEntity entityDb = await GetOne(entity.Id, false);
@@ -87,6 +87,7 @@ namespace SisNovoAlunoOnline.Infra.Data.Repository
             databaseContext.Entry(entityDb).CurrentValues.SetValues(entity);
             databaseContext.SaveChanges();
             AfterModified(StateEntity.Updated, entity);
+            return entityDb;
         }
 
         public async Task Delete(Guid id)

@@ -1,5 +1,6 @@
 ﻿using Microsoft.Extensions.DependencyInjection;
 using SisNovoAlunoOnline.Infra.Data.Interface;
+using SisNovoAlunoOnline.Infra.Data.Interfaces;
 using SisNovoAlunoOnline.Infra.Data.Repository;
 using System.Linq;
 
@@ -20,6 +21,7 @@ namespace SisNovoAlunoOnline.Infra.Data
             //    services.AddScoped(serviceType, assignedTypes);
             //});
             services.AddTransient<IUserRepository, UserRepository>();
+            services.AddTransient<ITelefoneUserRepository, TelefoneUserRepository>();
         }
     }
 }

@@ -23,14 +23,14 @@ namespace SisNovoAlunoOnline.Controllers
         }
 
         [HttpPut]
-        public virtual async void Put([FromBody] TEntity entity)
+        public virtual async Task<TEntity> Put([FromBody] TEntity entity)
         {
             entity.Validate(validateId: true);
-            await repository.Update(entity);
+          return  await repository.Update(entity);
         }
 
         [HttpDelete]
-        public virtual async void Delete(Guid id) => await repository.Delete(id);
+        public virtual async Task Delete(Guid id) => await repository.Delete(id);
 
 
         [Route("id/{id:Guid}"), HttpGet]

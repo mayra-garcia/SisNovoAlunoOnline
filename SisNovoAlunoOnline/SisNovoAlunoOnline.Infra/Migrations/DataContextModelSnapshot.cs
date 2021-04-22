@@ -19,6 +19,31 @@ namespace SisNovoAlunoOnline.Infra.Migrations
                 .HasAnnotation("ProductVersion", "5.0.5")
                 .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
+            modelBuilder.Entity("SisNovoAlunoOnline.Domain.Entities.TelefoneUserEntity", b =>
+                {
+                    b.Property<Guid>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<string>("DDD")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Numero")
+                        .IsRequired()
+                        .HasMaxLength(9)
+                        .HasColumnType("nvarchar(9)");
+
+                    b.Property<Guid>("UserId")
+                        .HasColumnType("uniqueidentifier");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("UserId");
+
+                    b.ToTable("TelefoneUserEntity");
+                });
+
             modelBuilder.Entity("SisNovoAlunoOnline.Domain.Entities.UserEntity", b =>
                 {
                     b.Property<Guid>("Id")
@@ -43,6 +68,23 @@ namespace SisNovoAlunoOnline.Infra.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("User");
+                });
+
+            modelBuilder.Entity("SisNovoAlunoOnline.Domain.Entities.TelefoneUserEntity", b =>
+                {
+                    b.HasOne("SisNovoAlunoOnline.Domain.Entities.UserEntity", "UserEntity")
+                        .WithMany("TelefoneUser")
+                        .HasForeignKey("UserId")
+                        .HasConstraintName("FKUserId")
+                        .OnDelete(DeleteBehavior.Restrict)
+                        .IsRequired();
+
+                    b.Navigation("UserEntity");
+                });
+
+            modelBuilder.Entity("SisNovoAlunoOnline.Domain.Entities.UserEntity", b =>
+                {
+                    b.Navigation("TelefoneUser");
                 });
 #pragma warning restore 612, 618
         }
