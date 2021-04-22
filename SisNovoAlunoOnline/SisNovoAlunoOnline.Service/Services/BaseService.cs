@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace SisNovoAlunoOnline.Service.Services
 {
-    public class BaseService<TEntity> : IUserRepository<TEntity> where TEntity : BaseEntity
+    public class BaseService<TEntity> : IBaseRepository<TEntity> where TEntity : BaseEntity
     {
         private readonly IBaseRepository<TEntity> _baseRepository;
         public BaseService(IBaseRepository<TEntity> baseRepository)

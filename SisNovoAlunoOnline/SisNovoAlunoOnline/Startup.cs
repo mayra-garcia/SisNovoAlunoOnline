@@ -28,7 +28,7 @@ namespace SisNovoAlunoOnline
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "SisNovoAlunoOnline", Version = "v1" });
             });
-            Service.Services.ServiceProvider.Register(services);
+            Infra.Data.ServiceProvider.Register(services);
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

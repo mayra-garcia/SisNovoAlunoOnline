@@ -1,40 +1,110 @@
-﻿using SisNovoAlunoOnline.Domain.Entities;
+﻿using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.DependencyInjection;
+using SisNovoAlunoOnline.Domain.Attibutes;
+using SisNovoAlunoOnline.Domain.Entities;
 using SisNovoAlunoOnline.Infra.Data.Context;
 using SisNovoAlunoOnline.Infra.Data.Interface;
 using System;
-using System.Collections.Generic;
-using System.Linq;
+using System.Reflection;
 using System.Threading.Tasks;
 
 namespace SisNovoAlunoOnline.Infra.Data.Repository
 {
     public class BaseRepository<TEntity> : IBaseRepository<TEntity> where TEntity : BaseEntity
     {
-        protected readonly DataContext _dataContext;
-        public BaseRepository(DataContext dataContext)
+        private readonly DataContext databaseContext;
+        private readonly IServiceProvider serviceProvider;
+
+        public BaseRepository(DataContext databaseContext)
         {
-            _dataContext = dataContext;
-        }
-        public async Task DeleteAsync(Guid id)
-        {
-             _dataContext.Set<TEntity>().Remove(await SelectAsync(id));
-             await _dataContext.SaveChangesAsync();
+            this.databaseContext = databaseContext;
         }
 
-        public async Task InsertAsync(TEntity obj)
+        protected virtual void BeforeModified(StateEntity stateEntity, TEntity entity) { }
+
+        protected virtual void AfterModified(StateEntity stateEntity, TEntity entity) { }
+
+        private void LoadPropertiesEntities(object entity)
         {
-            await _dataContext.Set<TEntity>().AddAsync(obj);
-            await _dataContext.SaveChangesAsync();
+            var properties = entity.GetType().GetProperties(BindingFlags.Public | BindingFlags.Instance);
+            foreach (var property in properties)
+            {
+                var attribute = property.GetCustomAttribute<LoadEntityAttribute>();
+                if (attribute != null && !string.IsNullOrWhiteSpace(attribute.NameForeignKey) && attribute.TypeRepository != null)
+                {
+                    var foreignKey = entity.GetType().GetProperty(attribute.NameForeignKey);
+                    if (foreignKey != null)
+                    {
+                        var valueObject = foreignKey.GetValue(entity);
+                        if (valueObject != null)
+                        {
+                            long idLoad = (long)valueObject;
+
+                            var repository = serviceProvider.GetRequiredService(attribute.TypeRepository);
+                            var entityObject = repository.GetType().GetMethod(nameof(GetOne)).Invoke(repository, new object[] { idLoad, false });
+
+                            if (entityObject != null)
+                            {
+                                property.SetValue(entity, entityObject);
+                            }
+                        }
+                    }
+                }
+            }
         }
 
-        public IList<TEntity> Select() =>  _dataContext.Set<TEntity>().ToList();
-
-        public async Task<TEntity> SelectAsync(Guid id) => await _dataContext.Set<TEntity>().FindAsync(id);
-
-        public async Task UpdateAsync(TEntity obj)
+        public async Task<TEntity> GetOne(Guid id, bool loadDependencies = true)
         {
-            _dataContext.Entry(obj).State = Microsoft.EntityFrameworkCore.EntityState.Modified;
-            await _dataContext.SaveChangesAsync();
+            var entity = await SelectById(id);
+
+            if (entity is null)
+            {
+                throw new Exception($"Nenhum resultado encontrado para o id: {id}.");
+            }
+
+            if (loadDependencies)
+            {
+                LoadPropertiesEntities(entity);
+            }
+
+            return entity;
         }
+
+        public async Task<TEntity> Add(TEntity entity)
+        {
+            BeforeModified(StateEntity.Inserted, entity);
+            databaseContext.Add(entity);
+            databaseContext.SaveChanges();
+            AfterModified(StateEntity.Inserted, entity);
+            return entity;
+        }
+
+        public async Task Update(TEntity entity)
+        {
+            BeforeModified(StateEntity.Updated, entity);
+            TEntity entityDb = await GetOne(entity.Id, false);
+            databaseContext.Entry(entityDb).State = EntityState.Modified;
+            databaseContext.Entry(entityDb).CurrentValues.SetValues(entity);
+            databaseContext.SaveChanges();
+            AfterModified(StateEntity.Updated, entity);
+        }
+
+        public async Task Delete(Guid id)
+        {
+            TEntity entity = await GetOne(id, false);
+            BeforeModified(StateEntity.Deleted, entity);
+            databaseContext.Entry(entity).State = EntityState.Deleted;
+            databaseContext.Remove(entity);
+            databaseContext.SaveChanges();
+            AfterModified(StateEntity.Deleted, entity);
+        }
+
+        public async Task<TEntity> SelectById(Guid id) => await databaseContext.Set<TEntity>().FindAsync(id);
+    }
+    public enum StateEntity
+    {
+        Inserted = 1,
+        Updated = 2,
+        Deleted = 3
     }
 }

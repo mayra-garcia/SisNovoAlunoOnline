@@ -66,5 +66,3 @@ C:\Users\TIEDT\Desktop\fael\SisNovoAlunoOnline\SisNovoAlunoOnline\SisNovoAlunoOn
 C:\Users\TIEDT\Desktop\fael\SisNovoAlunoOnline\SisNovoAlunoOnline\SisNovoAlunoOnline\bin\Debug\net5.0\SisNovoAlunoOnline.Infra.dll
 C:\Users\TIEDT\Desktop\fael\SisNovoAlunoOnline\SisNovoAlunoOnline\SisNovoAlunoOnline\bin\Debug\net5.0\SisNovoAlunoOnline.Infra.pdb
 C:\Users\TIEDT\Desktop\fael\SisNovoAlunoOnline\SisNovoAlunoOnline\SisNovoAlunoOnline\bin\Debug\net5.0\SisNovoAlunoOnline.Domain.pdb
-C:\Users\TIEDT\Desktop\fael\SisNovoAlunoOnline\SisNovoAlunoOnline\SisNovoAlunoOnline\bin\Debug\net5.0\SisNovoAlunoOnline.Service.dll
-C:\Users\TIEDT\Desktop\fael\SisNovoAlunoOnline\SisNovoAlunoOnline\SisNovoAlunoOnline\bin\Debug\net5.0\SisNovoAlunoOnline.Service.pdb

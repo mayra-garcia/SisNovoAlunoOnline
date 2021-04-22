@@ -21,7 +21,6 @@
   <ItemGroup>
     <ProjectReference Include="..\SisNovoAlunoOnline.Domain\SisNovoAlunoOnline.Domain.csproj" />
     <ProjectReference Include="..\SisNovoAlunoOnline.Infra\SisNovoAlunoOnline.Infra.csproj" />
-    <ProjectReference Include="..\SisNovoAlunoOnline.Service\SisNovoAlunoOnline.Service.csproj" />
   </ItemGroup>
 
 </Project>

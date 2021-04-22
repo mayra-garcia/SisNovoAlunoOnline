@@ -1656,24 +1656,6 @@
         "frameworkReferences": [
           "Microsoft.AspNetCore.App"
         ]
-      },
-      "SisNovoAlunoOnline.Service/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v3.1",
-        "dependencies": {
-          "FluentValidation.AspNetCore": "10.0.4",
-          "SisNovoAlunoOnline.Domain": "1.0.0",
-          "SisNovoAlunoOnline.Infra": "1.0.0"
-        },
-        "compile": {
-          "bin/placeholder/SisNovoAlunoOnline.Service.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/SisNovoAlunoOnline.Service.dll": {}
-        },
-        "frameworkReferences": [
-          "Microsoft.AspNetCore.App"
-        ]
       }
     }
   },
@@ -6108,11 +6090,6 @@
       "type": "project",
       "path": "../SisNovoAlunoOnline.Infra/SisNovoAlunoOnline.Infra.csproj",
       "msbuildProject": "../SisNovoAlunoOnline.Infra/SisNovoAlunoOnline.Infra.csproj"
-    },
-    "SisNovoAlunoOnline.Service/1.0.0": {
-      "type": "project",
-      "path": "../SisNovoAlunoOnline.Service/SisNovoAlunoOnline.Service.csproj",
-      "msbuildProject": "../SisNovoAlunoOnline.Service/SisNovoAlunoOnline.Service.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -6121,7 +6098,6 @@
       "Microsoft.VisualStudio.Azure.Containers.Tools.Targets >= 1.10.9",
       "SisNovoAlunoOnline.Domain >= 1.0.0",
       "SisNovoAlunoOnline.Infra >= 1.0.0",
-      "SisNovoAlunoOnline.Service >= 1.0.0",
       "Swashbuckle.AspNetCore >= 5.6.3",
       "Swashbuckle.AspNetCore.Swagger >= 6.1.3",
       "Swashbuckle.AspNetCore.SwaggerGen >= 6.1.3",
@@ -6167,9 +6143,6 @@
             },
             "C:\\Users\\TIEDT\\Desktop\\fael\\SisNovoAlunoOnline\\SisNovoAlunoOnline\\SisNovoAlunoOnline.Infra\\SisNovoAlunoOnline.Infra.csproj": {
               "projectPath": "C:\\Users\\TIEDT\\Desktop\\fael\\SisNovoAlunoOnline\\SisNovoAlunoOnline\\SisNovoAlunoOnline.Infra\\SisNovoAlunoOnline.Infra.csproj"
-            },
-            "C:\\Users\\TIEDT\\Desktop\\fael\\SisNovoAlunoOnline\\SisNovoAlunoOnline\\SisNovoAlunoOnline.Service\\SisNovoAlunoOnline.Service.csproj": {
-              "projectPath": "C:\\Users\\TIEDT\\Desktop\\fael\\SisNovoAlunoOnline\\SisNovoAlunoOnline\\SisNovoAlunoOnline.Service\\SisNovoAlunoOnline.Service.csproj"
             }
           }
         }

@@ -29,7 +29,6 @@
           "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": "1.10.9",
           "SisNovoAlunoOnline.Domain": "1.0.0",
           "SisNovoAlunoOnline.Infra": "1.0.0",
-          "SisNovoAlunoOnline.Service": "1.0.0",
           "Swashbuckle.AspNetCore": "5.6.3",
           "Swashbuckle.AspNetCore.Swagger": "6.1.3",
           "Swashbuckle.AspNetCore.SwaggerGen": "6.1.3",
@@ -1436,19 +1435,6 @@
         },
         "compile": {
           "SisNovoAlunoOnline.Infra.dll": {}
-        }
-      },
-      "SisNovoAlunoOnline.Service/1.0.0": {
-        "dependencies": {
-          "FluentValidation.AspNetCore": "10.0.4",
-          "SisNovoAlunoOnline.Domain": "1.0.0",
-          "SisNovoAlunoOnline.Infra": "1.0.0"
-        },
-        "runtime": {
-          "SisNovoAlunoOnline.Service.dll": {}
-        },
-        "compile": {
-          "SisNovoAlunoOnline.Service.dll": {}
         }
       },
       "Microsoft.AspNetCore.Antiforgery/5.0.0.0": {
@@ -3893,11 +3879,6 @@
       "sha512": ""
     },
     "SisNovoAlunoOnline.Infra/1.0.0": {
-      "type": "project",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "SisNovoAlunoOnline.Service/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
