@@ -1,10 +1,10 @@
-﻿using SisNovoAlunoOnline.Domain.Entities;
-using SisNovoAlunoOnline.Domain.Exceptions;
+﻿using SisNovoAlunoOnline.Domain.Exceptions;
+using SisNovoAlunoOnline.Infra.Data.Entities;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.Text;
 
-namespace SisNovoAlunoOnline.Domain
+namespace SisNovoAlunoOnline.Infra.Data
 {
     public static class EntityExtension
     {

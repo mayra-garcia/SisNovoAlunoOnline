@@ -1,7 +1,9 @@
-﻿using System;
+﻿using SisNovoAlunoOnline.Domain.Attibutes;
+using SisNovoAlunoOnline.Infra.Data.Interface;
+using System;
 using System.Text.Json.Serialization;
 
-namespace SisNovoAlunoOnline.Domain.Entities
+namespace SisNovoAlunoOnline.Infra.Data.Entities
 {
     public class TelefoneUserEntity : BaseEntity
     {
@@ -9,7 +11,8 @@ namespace SisNovoAlunoOnline.Domain.Entities
         public string DDD { get; set; }
         public Guid UserId { get; set; }
 
-        [JsonIgnore]
+        //[JsonIgnore]
+        [LoadEntity(NameForeignKey = nameof(UserId), TypeRepository = typeof(IUserRepository))]
         public virtual UserEntity UserEntity { get; set; }
     }
 }

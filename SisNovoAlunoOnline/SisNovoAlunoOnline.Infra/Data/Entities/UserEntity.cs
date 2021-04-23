@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 
-namespace SisNovoAlunoOnline.Domain.Entities
+namespace SisNovoAlunoOnline.Infra.Data.Entities
 {
     public class UserEntity : BaseEntity
     {

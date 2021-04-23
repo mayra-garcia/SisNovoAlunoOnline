@@ -1,6 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using SisNovoAlunoOnline.Domain.Entities;
-using SisNovoAlunoOnline.Infra.Data.Mapping;
+using SisNovoAlunoOnline.Infra.Data.Entities;
 using System;
 using System.Collections.Generic;
 using System.Linq;

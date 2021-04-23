@@ -1,10 +1,3 @@
-C:\Users\TIEDT\Desktop\fael\SisNovoAlunoOnline\SisNovoAlunoOnline\SisNovoAlunoOnline\obj\Debug\net5.0\SisNovoAlunoOnline.csprojAssemblyReference.cache
-C:\Users\TIEDT\Desktop\fael\SisNovoAlunoOnline\SisNovoAlunoOnline\SisNovoAlunoOnline\obj\Debug\net5.0\SisNovoAlunoOnline.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\TIEDT\Desktop\fael\SisNovoAlunoOnline\SisNovoAlunoOnline\SisNovoAlunoOnline\obj\Debug\net5.0\SisNovoAlunoOnline.AssemblyInfoInputs.cache
-C:\Users\TIEDT\Desktop\fael\SisNovoAlunoOnline\SisNovoAlunoOnline\SisNovoAlunoOnline\obj\Debug\net5.0\SisNovoAlunoOnline.AssemblyInfo.cs
-C:\Users\TIEDT\Desktop\fael\SisNovoAlunoOnline\SisNovoAlunoOnline\SisNovoAlunoOnline\obj\Debug\net5.0\SisNovoAlunoOnline.csproj.CoreCompileInputs.cache
-C:\Users\TIEDT\Desktop\fael\SisNovoAlunoOnline\SisNovoAlunoOnline\SisNovoAlunoOnline\obj\Debug\net5.0\SisNovoAlunoOnline.MvcApplicationPartsAssemblyInfo.cs
-C:\Users\TIEDT\Desktop\fael\SisNovoAlunoOnline\SisNovoAlunoOnline\SisNovoAlunoOnline\obj\Debug\net5.0\SisNovoAlunoOnline.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\TIEDT\Desktop\fael\SisNovoAlunoOnline\SisNovoAlunoOnline\SisNovoAlunoOnline\bin\Debug\net5.0\appsettings.Development.json
 C:\Users\TIEDT\Desktop\fael\SisNovoAlunoOnline\SisNovoAlunoOnline\SisNovoAlunoOnline\bin\Debug\net5.0\appsettings.json
 C:\Users\TIEDT\Desktop\fael\SisNovoAlunoOnline\SisNovoAlunoOnline\SisNovoAlunoOnline\bin\Debug\net5.0\SisNovoAlunoOnline.exe
@@ -60,6 +53,13 @@ C:\Users\TIEDT\Desktop\fael\SisNovoAlunoOnline\SisNovoAlunoOnline\SisNovoAlunoOn
 C:\Users\TIEDT\Desktop\fael\SisNovoAlunoOnline\SisNovoAlunoOnline\SisNovoAlunoOnline\bin\Debug\net5.0\SisNovoAlunoOnline.Infra.dll
 C:\Users\TIEDT\Desktop\fael\SisNovoAlunoOnline\SisNovoAlunoOnline\SisNovoAlunoOnline\bin\Debug\net5.0\SisNovoAlunoOnline.Domain.pdb
 C:\Users\TIEDT\Desktop\fael\SisNovoAlunoOnline\SisNovoAlunoOnline\SisNovoAlunoOnline\bin\Debug\net5.0\SisNovoAlunoOnline.Infra.pdb
+C:\Users\TIEDT\Desktop\fael\SisNovoAlunoOnline\SisNovoAlunoOnline\SisNovoAlunoOnline\obj\Debug\net5.0\SisNovoAlunoOnline.csprojAssemblyReference.cache
+C:\Users\TIEDT\Desktop\fael\SisNovoAlunoOnline\SisNovoAlunoOnline\SisNovoAlunoOnline\obj\Debug\net5.0\SisNovoAlunoOnline.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\TIEDT\Desktop\fael\SisNovoAlunoOnline\SisNovoAlunoOnline\SisNovoAlunoOnline\obj\Debug\net5.0\SisNovoAlunoOnline.AssemblyInfoInputs.cache
+C:\Users\TIEDT\Desktop\fael\SisNovoAlunoOnline\SisNovoAlunoOnline\SisNovoAlunoOnline\obj\Debug\net5.0\SisNovoAlunoOnline.AssemblyInfo.cs
+C:\Users\TIEDT\Desktop\fael\SisNovoAlunoOnline\SisNovoAlunoOnline\SisNovoAlunoOnline\obj\Debug\net5.0\SisNovoAlunoOnline.csproj.CoreCompileInputs.cache
+C:\Users\TIEDT\Desktop\fael\SisNovoAlunoOnline\SisNovoAlunoOnline\SisNovoAlunoOnline\obj\Debug\net5.0\SisNovoAlunoOnline.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\TIEDT\Desktop\fael\SisNovoAlunoOnline\SisNovoAlunoOnline\SisNovoAlunoOnline\obj\Debug\net5.0\SisNovoAlunoOnline.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\TIEDT\Desktop\fael\SisNovoAlunoOnline\SisNovoAlunoOnline\SisNovoAlunoOnline\obj\Debug\net5.0\staticwebassets\SisNovoAlunoOnline.StaticWebAssets.Manifest.cache
 C:\Users\TIEDT\Desktop\fael\SisNovoAlunoOnline\SisNovoAlunoOnline\SisNovoAlunoOnline\obj\Debug\net5.0\staticwebassets\SisNovoAlunoOnline.StaticWebAssets.xml
 C:\Users\TIEDT\Desktop\fael\SisNovoAlunoOnline\SisNovoAlunoOnline\SisNovoAlunoOnline\obj\Debug\net5.0\scopedcss\bundle\SisNovoAlunoOnline.styles.css

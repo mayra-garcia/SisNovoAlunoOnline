@@ -1,8 +1,8 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
 using SisNovoAlunoOnline.Domain.Attibutes;
-using SisNovoAlunoOnline.Domain.Entities;
 using SisNovoAlunoOnline.Infra.Data.Context;
+using SisNovoAlunoOnline.Infra.Data.Entities;
 using SisNovoAlunoOnline.Infra.Data.Interface;
 using System;
 using System.Reflection;
@@ -15,16 +15,17 @@ namespace SisNovoAlunoOnline.Infra.Data.Repository
         private readonly DataContext databaseContext;
         private readonly IServiceProvider serviceProvider;
 
-        public BaseRepository(DataContext databaseContext)
+        public BaseRepository(DataContext databaseContext, IServiceProvider _serviceProvider)
         {
             this.databaseContext = databaseContext;
+            this.serviceProvider = _serviceProvider;
         }
 
         protected virtual void BeforeModified(StateEntity stateEntity, TEntity entity) { }
 
         protected virtual void AfterModified(StateEntity stateEntity, TEntity entity) { }
 
-        private void LoadPropertiesEntities(object entity)
+        private async Task<PropertyInfo[]> LoadPropertiesEntitiesAsync(object entity)
         {
             var properties = entity.GetType().GetProperties(BindingFlags.Public | BindingFlags.Instance);
             foreach (var property in properties)
@@ -38,7 +39,7 @@ namespace SisNovoAlunoOnline.Infra.Data.Repository
                         var valueObject = foreignKey.GetValue(entity);
                         if (valueObject != null)
                         {
-                            long idLoad = (long)valueObject;
+                            Guid idLoad = (Guid)valueObject;
 
                             var repository = serviceProvider.GetRequiredService(attribute.TypeRepository);
                             var entityObject = repository.GetType().GetMethod(nameof(GetOne)).Invoke(repository, new object[] { idLoad, false });
@@ -51,6 +52,7 @@ namespace SisNovoAlunoOnline.Infra.Data.Repository
                     }
                 }
             }
+            return properties;
         }
 
         public async Task<TEntity> GetOne(Guid id, bool loadDependencies = true)
@@ -64,7 +66,7 @@ namespace SisNovoAlunoOnline.Infra.Data.Repository
 
             if (loadDependencies)
             {
-                LoadPropertiesEntities(entity);
+                LoadPropertiesEntitiesAsync(entity);
             }
 
             return entity;

@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using SisNovoAlunoOnline.Domain;
-using SisNovoAlunoOnline.Domain.Entities;
+using SisNovoAlunoOnline.Infra.Data;
+using SisNovoAlunoOnline.Infra.Data.Entities;
 using SisNovoAlunoOnline.Infra.Data.Interface;
 using System;
 using System.Threading.Tasks;

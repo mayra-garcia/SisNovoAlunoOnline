@@ -1,6 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
-using SisNovoAlunoOnline.Domain.Entities;
+using SisNovoAlunoOnline.Infra.Data.Entities;
 
 namespace SisNovoAlunoOnline.Infra.Data.Mapping
 {

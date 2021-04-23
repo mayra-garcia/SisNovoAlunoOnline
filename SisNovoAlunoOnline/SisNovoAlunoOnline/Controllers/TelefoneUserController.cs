@@ -1,5 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using SisNovoAlunoOnline.Domain.Entities;
+using SisNovoAlunoOnline.Infra.Data.Entities;
 using SisNovoAlunoOnline.Infra.Data.Interfaces;
 
 namespace SisNovoAlunoOnline.Controllers

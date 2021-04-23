@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace SisNovoAlunoOnline.Domain.Entities
+namespace SisNovoAlunoOnline.Infra.Data.Entities
 {
    public class BaseEntity
     {
