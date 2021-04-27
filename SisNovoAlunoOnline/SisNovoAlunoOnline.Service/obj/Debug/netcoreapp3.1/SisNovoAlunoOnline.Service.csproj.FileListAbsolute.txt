@@ -12,3 +12,17 @@ C:\Users\TIEDT\Desktop\fael\SisNovoAlunoOnline\SisNovoAlunoOnline\SisNovoAlunoOn
 C:\Users\TIEDT\Desktop\fael\SisNovoAlunoOnline\SisNovoAlunoOnline\SisNovoAlunoOnline.Service\obj\Debug\netcoreapp3.1\SisNovoAlunoOnline.Service.pdb
 C:\Users\TIEDT\Desktop\fael\SisNovoAlunoOnline\SisNovoAlunoOnline\SisNovoAlunoOnline.Service\bin\Debug\netcoreapp3.1\SisNovoAlunoOnline.Infra.dll
 C:\Users\TIEDT\Desktop\fael\SisNovoAlunoOnline\SisNovoAlunoOnline\SisNovoAlunoOnline.Service\bin\Debug\netcoreapp3.1\SisNovoAlunoOnline.Infra.pdb
+C:\Users\MayraAndreotiMendesG\OneDrive - Faculdade Fael\Documentos\GitHub\SisNovoAlunoOnline\SisNovoAlunoOnline\SisNovoAlunoOnline.Service\bin\Debug\netcoreapp3.1\SisNovoAlunoOnline.Service.deps.json
+C:\Users\MayraAndreotiMendesG\OneDrive - Faculdade Fael\Documentos\GitHub\SisNovoAlunoOnline\SisNovoAlunoOnline\SisNovoAlunoOnline.Service\bin\Debug\netcoreapp3.1\SisNovoAlunoOnline.Service.dll
+C:\Users\MayraAndreotiMendesG\OneDrive - Faculdade Fael\Documentos\GitHub\SisNovoAlunoOnline\SisNovoAlunoOnline\SisNovoAlunoOnline.Service\bin\Debug\netcoreapp3.1\SisNovoAlunoOnline.Service.pdb
+C:\Users\MayraAndreotiMendesG\OneDrive - Faculdade Fael\Documentos\GitHub\SisNovoAlunoOnline\SisNovoAlunoOnline\SisNovoAlunoOnline.Service\bin\Debug\netcoreapp3.1\SisNovoAlunoOnline.Domain.dll
+C:\Users\MayraAndreotiMendesG\OneDrive - Faculdade Fael\Documentos\GitHub\SisNovoAlunoOnline\SisNovoAlunoOnline\SisNovoAlunoOnline.Service\bin\Debug\netcoreapp3.1\SisNovoAlunoOnline.Infra.dll
+C:\Users\MayraAndreotiMendesG\OneDrive - Faculdade Fael\Documentos\GitHub\SisNovoAlunoOnline\SisNovoAlunoOnline\SisNovoAlunoOnline.Service\bin\Debug\netcoreapp3.1\SisNovoAlunoOnline.Domain.pdb
+C:\Users\MayraAndreotiMendesG\OneDrive - Faculdade Fael\Documentos\GitHub\SisNovoAlunoOnline\SisNovoAlunoOnline\SisNovoAlunoOnline.Service\bin\Debug\netcoreapp3.1\SisNovoAlunoOnline.Infra.pdb
+C:\Users\MayraAndreotiMendesG\OneDrive - Faculdade Fael\Documentos\GitHub\SisNovoAlunoOnline\SisNovoAlunoOnline\SisNovoAlunoOnline.Service\obj\Debug\netcoreapp3.1\SisNovoAlunoOnline.Service.csprojAssemblyReference.cache
+C:\Users\MayraAndreotiMendesG\OneDrive - Faculdade Fael\Documentos\GitHub\SisNovoAlunoOnline\SisNovoAlunoOnline\SisNovoAlunoOnline.Service\obj\Debug\netcoreapp3.1\SisNovoAlunoOnline.Service.AssemblyInfoInputs.cache
+C:\Users\MayraAndreotiMendesG\OneDrive - Faculdade Fael\Documentos\GitHub\SisNovoAlunoOnline\SisNovoAlunoOnline\SisNovoAlunoOnline.Service\obj\Debug\netcoreapp3.1\SisNovoAlunoOnline.Service.AssemblyInfo.cs
+C:\Users\MayraAndreotiMendesG\OneDrive - Faculdade Fael\Documentos\GitHub\SisNovoAlunoOnline\SisNovoAlunoOnline\SisNovoAlunoOnline.Service\obj\Debug\netcoreapp3.1\SisNovoAlunoOnline.Service.csproj.CoreCompileInputs.cache
+C:\Users\MayraAndreotiMendesG\OneDrive - Faculdade Fael\Documentos\GitHub\SisNovoAlunoOnline\SisNovoAlunoOnline\SisNovoAlunoOnline.Service\obj\Debug\netcoreapp3.1\SisNovoAlunoOnline.Service.csproj.CopyComplete
+C:\Users\MayraAndreotiMendesG\OneDrive - Faculdade Fael\Documentos\GitHub\SisNovoAlunoOnline\SisNovoAlunoOnline\SisNovoAlunoOnline.Service\obj\Debug\netcoreapp3.1\SisNovoAlunoOnline.Service.dll
+C:\Users\MayraAndreotiMendesG\OneDrive - Faculdade Fael\Documentos\GitHub\SisNovoAlunoOnline\SisNovoAlunoOnline\SisNovoAlunoOnline.Service\obj\Debug\netcoreapp3.1\SisNovoAlunoOnline.Service.pdb

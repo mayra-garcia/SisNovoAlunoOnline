@@ -1,13 +1,25 @@
 {
   "version": 2,
-  "dgSpecHash": "3ui2Bg9nA1rAWgf9pkZFzJJRT1w5vdxm1AXibdzNYBKxH3lZKSu02tGSZ+IQzl0zFeX11PFPAfqX/7lAnrZRsw==",
+  "dgSpecHash": "AkQ4JIGFFS3K+TczwzBjiSChJU8Dt33x5/a15oOLALSBVKdBN2UbvR/KM8xg3srbX8VE8XAap4DXEFylbQQS0A==",
   "success": true,
-  "projectFilePath": "C:\\Users\\TIEDT\\Desktop\\fael\\SisNovoAlunoOnline\\SisNovoAlunoOnline\\SisNovoAlunoOnline.Domain\\SisNovoAlunoOnline.Domain.csproj",
+  "projectFilePath": "C:\\Users\\MayraAndreotiMendesG\\OneDrive - Faculdade Fael\\Documentos\\GitHub\\SisNovoAlunoOnline\\SisNovoAlunoOnline\\SisNovoAlunoOnline.Domain\\SisNovoAlunoOnline.Domain.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\TIEDT\\.nuget\\packages\\fluentvalidation\\10.0.4\\fluentvalidation.10.0.4.nupkg.sha512",
-    "C:\\Users\\TIEDT\\.nuget\\packages\\fluentvalidation.aspnetcore\\10.0.4\\fluentvalidation.aspnetcore.10.0.4.nupkg.sha512",
-    "C:\\Users\\TIEDT\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\10.0.4\\fluentvalidation.dependencyinjectionextensions.10.0.4.nupkg.sha512",
-    "C:\\Users\\TIEDT\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\2.1.0\\microsoft.extensions.dependencyinjection.abstractions.2.1.0.nupkg.sha512"
+    "C:\\Users\\MayraAndreotiMendesG\\.nuget\\packages\\fluentvalidation\\10.0.4\\fluentvalidation.10.0.4.nupkg.sha512",
+    "C:\\Users\\MayraAndreotiMendesG\\.nuget\\packages\\fluentvalidation.aspnetcore\\10.0.4\\fluentvalidation.aspnetcore.10.0.4.nupkg.sha512",
+    "C:\\Users\\MayraAndreotiMendesG\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\10.0.4\\fluentvalidation.dependencyinjectionextensions.10.0.4.nupkg.sha512",
+    "C:\\Users\\MayraAndreotiMendesG\\.nuget\\packages\\microsoft.exchange.webservices\\2.2.0\\microsoft.exchange.webservices.2.2.0.nupkg.sha512",
+    "C:\\Users\\MayraAndreotiMendesG\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\2.1.0\\microsoft.extensions.dependencyinjection.abstractions.2.1.0.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "O pacote 'Microsoft.Exchange.WebServices 2.2.0' foi restaurado usando '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' em vez da estrutura de destino do projeto '.NETCoreApp,Version=v3.1'. Esse pacote pode não ser totalmente compatível com o seu projeto.",
+      "libraryId": "Microsoft.Exchange.WebServices",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    }
+  ]
 }
